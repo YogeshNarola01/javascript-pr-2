@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        var a = parseInt(prompt("Enter any number A : "));       
+        var b = parseInt(prompt("Enter any number B : ")); 
+        var choice = prompt("Select your choice :  + , - , * , / , %  ");
+        
+        switch(choice){
+            case '+':
+                document.write(`<h2>${a}+${b} : ${a+b}</h2>`);    
+                break;
+            case '-':
+                document.write(`<h2>${a}-${b} : ${a-b}</h2>`);    
+                break;
+            case '*':
+                document.write(`<h2>${a}*${b} : ${a*b}</h2>`);    
+                break;
+            case '/':
+                document.write(`<h2>${a}/${b} : ${a/b}</h2>`);    
+                break;
+            case '%':
+                document.write(`<h2>${a}%${b} : ${a%b}</h2>`);    
+                break;
+            default :
+                document.write(`<h2>Invalid choice...</h2>`);    
+        }
+    </script>
+
+</body>
+</html>

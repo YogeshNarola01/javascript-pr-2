@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        var a = parseInt(prompt("Enter number A : "));       
+        var b = parseInt(prompt("Enter number B : ")); 
+        var choice = prompt("Select your choice :  + , - , * , / , %  ");
+        
+        if(choice == "+"){
+            document.write(`<h2>${a}+${b} : ${a+b}</h2>`);
+        }else if(choice == "-"){
+            document.write(`<h2>${a}-${b} : ${a-b}</h2>`)
+        }else if(choice == "*"){
+            document.write(`<h2>${a}*${b} : ${a*b}</h2>`)
+        }else if(choice == "/"){
+            document.write(`<h2>${a}/${b} : ${a/b}</h2>`);
+        }else if(choice == "%"){
+            document.write(`<h2>${a}%${b} : ${a%b}</h2>`);
+        }else{
+            document.write(`<h2>Invalid choice</h2>`);
+        }
+
+    </script>
+
+</body>
+</html>

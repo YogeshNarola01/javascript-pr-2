@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script type="text/javascript">
+    var pysics = parseInt(prompt("Enter pysics mark's out of 100 : "));
+    var chemistry = parseInt(prompt("Enter Chemistry mark's out of 100 : "));
+    var biology = parseInt(prompt("Enter Biology mark's out of 100 : "));
+    var meths = parseInt(prompt("Enter Methemetics mark's out of 100 : "));
+    var computer = parseInt(prompt("Enter Computer mark's out of 100 : "));
+    var persent = (pysics+chemistry+biology+meths+computer)*0.2;
+    var total = pysics+chemistry+biology+meths+computer;
+
+    document.write(`<h3>Pysics Percentage = ${pysics}%</h3>`);
+    document.write(`<h3>Chemistry Percentage = ${chemistry}%</h3>`);
+    document.write(`<h3>Biology Percentage = ${biology}%</h3>`);
+    document.write(`<h3>Mathematics Percentage = ${meths}%</h3>`);
+    document.write(`<h3>Computer Percentage = ${computer}%</h3>`);
+    
+
+    if(persent >= 90 && persent < 100){
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Grade = A</h2>`);
+    }else if(persent >= 80 && persent < 90){
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Grade = B</h2>`);
+    }else if(persent >= 70 && persent < 80){
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Grade = C</h2>`);
+    }else if(persent >= 60 && persent <70){
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Grade = D</h2>`);
+    }else if(persent >= 50 && persent < 60){
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Grade = E</h2>`);
+    }else if(persent >= 40 && persent < 40){
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Grade = F</h2>`);
+    }else{
+        document.write(`<h2>All Over Percentage = ${persent}%</h2><h2>All Over Are you Faile</h2>`);
+    }
+
+
+</script>
+
+</body>
+</html>

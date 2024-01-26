@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        var day = prompt("Enter the first letter and fing day name : ");
+
+        if(day == "M" || day == "m"){
+            document.write(`<h2>${day} : Monday</h2>`);
+        }else if(day == "T" || day == "t" ){
+            document.write(`<h2>${day} : Tuesday</h2>`);
+        }else if(day == "W" || day == "w"){
+            document.write(`<h2>${day} : Wednesday</h2>`);
+        }else if(day == "Th" || day == "th"){
+            document.write(`<h2>${day} : Thursdaya</h2>`);
+        }else if(day == "F" || day == "f"){
+            document.write(`<h2>${day} : Friday</h2>`);
+        }else if(day == "S" || day == "s" || day == "se" || day == "Se"){
+            document.write(`<h2>${day} : Saturday</h2>`);
+        }else if(day == "Su" || day == "su"){
+            document.write(`<h2>${day} : Sunday</h2>`);
+        }else{
+            document.write(`<h2>Invalid choice...</h2>`);
+        }
+
+    </script>
+
+</body>
+</html>
