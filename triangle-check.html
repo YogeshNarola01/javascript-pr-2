@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        var a = parseInt(prompt("Enter the angles of a triangle A : "));
+        var b = parseInt(prompt("Enter the angles of a triangle B : "));
+        var c = parseInt(prompt("Enter the angles of a triangle C : "));
+        var sum = a+b+c;
+
+        if(sum == 180){
+            document.write(`<h2>${a}+${b}+${c} = 180 Triangle is valid...</h2>`)
+        }else{
+            document.write(`<h2>Triangle is not valid...</h2>`)
+        }
+    </script>
+
+</body>
+</html>
